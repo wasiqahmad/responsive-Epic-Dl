@@ -6,6 +6,15 @@ h1{
     margin-top: 20% !important;
     text-align: center !important;
 }
+@media(max-width:31.25em){   
+    
+h1{
+    margin-top: 20% !important;
+    text-align: center !important;
+width: 70%;
+margin: auto;
+}
+    }    
 .form-group{
     /* border: 3px solid white outset !important; */
     border-top-style: hidden !important;
@@ -33,18 +42,37 @@ font-size: 110%;
 /* outline-bottom: green; */
 }
 }
+@media(max-width:25em){   
+    .form-group{
+        border-top-style: hidden !important;
+        border-right-style: hidden !important;
+        border-left-style: hidden !important;
+    padding-right: 20px;
+    margin-left: 2.4rem;
+    border-color: gray;
+    outline: none !important;
+    outline-color:green ;
+    font-size: 110%;
+    /* outline-bottom: green; */
+    }
+    }
 li{
     color: gray !important;
     padding: 3px;
 }
 
 @media(max-width:31.25em){   
-    
 li{
     color: gray !important;
     padding: 3px;
     margin-left: 1.5rem;}
-}
+ }
+@media(max-width:31.25em){   
+    li{
+        color: gray !important;
+        padding: 3px;
+        margin-left: 3.4rem;}
+    }
 a{
     text-decoration: none !important;
     color: green !important;
@@ -82,6 +110,21 @@ border-color: rgb(48, 121, 48);
         background-color: green;
     }
    }
+   @media(max-width:25em){   
+       .button{
+           margin-top: 50px !important;
+           padding-left: 85px;
+           padding-right: 80px;
+           padding-top: 7px;
+           margin-left: 5rem;
+           font-size: 20px;
+           padding-bottom: 7px;
+           text-align: center;
+           border-radius: 50px;
+           color: white;
+           background-color: green;
+       }
+      }
 .button:hover{
     background-color: rgb(26, 25, 25);
 }
