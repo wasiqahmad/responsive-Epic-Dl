@@ -45,11 +45,11 @@ input{
 
 @media (max-width: 25em) {
     .form-group{
-        width: 70% !important;
-        /* float: right; */
-        margin-left: 3rem;
-        /* margin-top: 0% !important; */
-        /* margin-bottom: 0rem; */
+width: 80% !important;
+        position: relative;
+        left: 2rem;
+        margin: 0%;
+        padding: 0%;
         border-top-style: hidden;
         border-left-style: hidden;
         border-right-style: hidden;
@@ -77,8 +77,9 @@ outline: none;
 }
 @media (max-width: 25em) {
     .form-groups{
-        width: 70% !important;
-        margin-right: 3.7rem !important;
+        width: 80% !important;
+        margin: 0%;
+        padding: 0%;
         border-top-style: hidden;
         border-left-style: hidden;
         border-right-style: hidden;
