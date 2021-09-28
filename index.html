@@ -41,20 +41,20 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav col-md-4 offset-md-7">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./html/contact.html">Contact</a>
+          <a class="nav-link" href="./html/product.html">Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./html/product.html">product</a>
+          <a class="nav-link" href="./html/contact.html">Contact</a>
         </li>
         <form action="./html/sign-in.html">
 <li class="nav-item">
-  <button class="btn btn btn-warning" type="submit">sign in</button>
+  <a href="./html/sign-in.html" class="btn btn btn-warning" type="submit">sign in</a>
 </li>
       </ul>
     </form>
@@ -126,14 +126,14 @@
 
     <!-- section 1 -->
 <section class="section-1">
-<h3 class="head-3">we are an</h3>
-<h1 class="head-1">object storage company</h1>
+<P class="head-3">WE ARE AN</P>
+<h1 class="head-1">OBJECT STORAGE COMPANY</h1>
 <hr class="hr-line">
 </section>
 <!-- section-2 -->
 <section class="section-2">
+    <!-- <span class="paragraph-border"> -->
 <p class="paragraph-main">
-    
   IDC projects that the total amount of data will grow to 44 zettabytes by 
   2020, and 80 percent of that will be unstructured content. To respond 
   effectively, you face critical data storage decisions. Your content is
@@ -141,9 +141,10 @@
   public cloud. And the diverse ways you use your data is just as important
   to consider as how you store it
 </p>
-<div class="section-2-sub-2">
-<h3 class="head-3">Welcome to</h3>
-<h1 class="">Epic DL</h1>
+<!-- </span> -->
+<div class="section-2-sub-2 flex">
+<P class="head-4">Welcome to</P>
+<h1 class="epic">EPIC<span class="epic-color">DL</span></h1>
 <p class="">Hot Storage & Warm Storage</p>
 </div>
 </section>
@@ -151,30 +152,35 @@
 <!-- Section-3 -->
 <section class="temp-storage">
 <div class="warm-storage">
+<div class="checking-warm">
   <img class="hot-img" src="./images/6.png" alt="Hot storage">
   <h1 class="hot-heading">Warm Storage</h1>
   <p class="hot-paragraph">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
     euismod tincidunt ut laoreet dolore magna aliquam erat volutpa wisi enim.
   </p>
-  <button class="btn-storage">Learn More</button>
+  <button class="btn-storage">LEARN MORE</button>
+</div>
 </div>
 
 <div class="hot-storage">
+  <div class="checking-hot">
   <img class="hot-img" src="./images/5.png" alt="Hot storage">
   <h1 class="hot-heading">Hot Storage</h1>
   <p class="hot-paragraph">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
     euismod tincidunt ut laoreet dolore magna aliquam erat volutpa wisi enim.
   </p>
-  <button class="btn-storage">Learn More</button>
-
+  <button class="btn-storage">LEARN MORE</button>
+</div>
 </div>
 </section>
 <!-- section-4 -->
 <section class="section-4">
-
-    <div class="sub-hot-temp">
+  <div class="hot-pics hot-sect">
+    <img src="./images/7.png" alt="hot pic" class="hot-picture">
+  </div>
+    <div class="sub-hot-temp  checking-hot">
       <h3 class="hot">Hot Storage</h3> 
   <p class="leo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
@@ -182,10 +188,6 @@
     suscipit lobortis nisl ut aliquip.</p>
     <button class="btn-storage-hot">Learn More</button>
   </div>
-  <div class="hot-pics">
-    <img src="./images/7.png" alt="hot pic" class="hot-picture">
-  </div>
-<br>
 </section>
 
 <!-- section-5 -->
@@ -193,7 +195,7 @@
 <section class="section-5">
   <div class="hot-sec">
       <div class="sub-warm-temp">
-  <h3 class="warm">Warm Storage</h3> 
+  <h3 class="warm">warm-storage</h3> 
   <p class="leo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
     Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
@@ -205,8 +207,6 @@
 </section>
 
 <!-- section-6-->
-
-
 <section class="section">
   <p class="serve">We Serve</p>
   <h1 class="claim">1,000,000 <b class="mbs"> Mbps.</b></h1>
@@ -221,7 +221,7 @@
   <hr class="href">
 </div>
   <div class="data">
-    <h5 class="because"> <img src="./images/true2.png" alt="this picture is not showing"> 30% Less Power/Space/Cooling</h5>
+    <h6 class="because"> <img src="./images/true2.png" alt="this picture is not showing"> 30% Less Power/Space/Cooling</h6>
     
     <p class="phys">Integrated data compression, erasure coding 
       and high density packaging reduce footprint.
@@ -246,51 +246,46 @@
 
   
 <!-- Footer -->
-<!-- Footer -->
 <footer class="text-center text-lg-start navbar-dark bg-black text-muted">
   <!-- Section: Social media -->
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
   >
-    <!-- Left -->
-     <!-- Right -->
   </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <!-- <section class=""> -->
     <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
       <div class="row mt-3">
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4 white">
+          <h6 class="text-uppercase fw-bold mb-0 white">
             <i class="fas fa-gem me-3"></i>About Us
           </h6>
-          <p class="white">
+          <p class="white footer-paragraph">
             Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
-            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam          </p>
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <i class="fab fa-facebook social-icon"></i>
+            <i class="fab fa-youtube social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i>
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4 white">
+          <h6 class="text-uppercase fw-bold mb-1 white">
             Products
           </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> Home</a>
           </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> About Us </a>
           </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> Our Products</a>
           </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> Contact Us</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -298,20 +293,20 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4 white">
+          <h6 class="text-uppercase fw-bold mb-1 white">
             Useful links
           </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> Privacy</a>
           </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> Security</a>
           </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> Terms Of Service</a>
           </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset">>> Sitemap</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -319,16 +314,19 @@
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4 white">
-            Contact
+          <h6 class="text-uppercase fw-bold mb-1 white">
+            Contact Info
           </h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
+          <p class="footer-paragraph white"><i class="fas fa-map-marker-alt iconse"></i> Epic DL</p>
+          <p class="footer-paragraph white">
+            <!-- <i class="fas fa-envelope me-3"></i> -->
+            Leorem ipsum dolor sit amer Gardener, MA 01401
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          
+          <p class="footer-paragraph">
+            <a href="#!" class="text-reset"> + 01 234 567 88</a>
+          </p>
+          <p class="footer-paragraph white"><i class="far fa-envelope iconse"></i> info@epicdl.com</p>
         </div>
         <!-- Grid column -->
       </div>
@@ -340,7 +338,8 @@
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <span class="footer-last">www.EpicDL.com</span>
+    All Rights Reserved.
   </div>
   <!-- Copyright -->
 </footer>

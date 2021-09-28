@@ -5,12 +5,16 @@
 }
 
 body{
-    background-color: rgb(61, 65, 65) !important;
+    background-color: rgb(45, 46, 46) !important;
     color: #fff !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 }
 /* navbar */
 .navbar-brand{
 color: #fff !important;
+}
+.navbar-toggler-icon{
+    color: #fff !important;
 }
 .btn-warning{
     /* padding: .2rem 2rem !important; */
@@ -63,14 +67,8 @@ text-transform: uppercase !important;
     color: #fff !important;
 }
 /* section-1 */
-.head-3{
-color: orange;
-margin-top: 2rem;
-}
 .hr-line{
     width: 6.25rem;
-/* position: relative; */
-/* top: 2rem; */
     border: rgb(90, 90,90) 3px solid;
     margin: auto;
     margin-top: 2rem;
@@ -82,20 +80,19 @@ margin-top: 2rem;
 
 
 /* section-2 */
-.paragraph-main{
-    font-size: 110%;
-    width: 35%;
-    text-align: right;
-    /* margin-top: 3rem; */
-    margin-left: 10rem;
-    float: left;
-/* border-right: .2rem solid rgb(90, 90,90); */
-}
 
-@media (max-width: 68.75em) {  
-    
-    .paragraph-main{
-        
+.paragraph-main{
+    font-size: 100%;
+    width: 40%;
+    text-align: right;
+    padding-bottom: 2rem;
+    margin-left: 10%;
+padding-right: 3rem;
+    border-right: 1px solid rgb(83, 83,83);
+    float: left;
+}
+@media (max-width: 68.75em) {      
+    .paragraph-main{        
     font-size: 110%;
     width: 40%;
     text-align: right;
@@ -137,14 +134,34 @@ margin-top: 2rem;
                     float: left;
                     }
                     }
-.section-2-sub-2{
-    width: 80%;
-    font-size: 170%;
-    position: relative;
-top: 1rem;
-    left: 4rem;
-}
-
+.head-3{
+    margin-top: 2rem;
+    color: rgb(255, 157, 0);
+    font-size: 70% !important;
+    /* margin-top: 2rem; */
+    margin-bottom: 0 !important;
+    }
+    .epic{
+        font-size: 280%;
+        margin-top: 0 !important;
+        margin-bottom: 0% !important;
+    }
+    .epic-color{
+        color: rgb(243, 195, 153);
+    }
+    .head-4{
+    margin-top: 2rem;
+    color: rgb(255, 157, 0);
+        font-size: 110%;
+margin-bottom: 0% !important;
+    }
+    .section-2-sub-2{
+        width: 80%;    
+        font-size: 170%;
+        position: relative;
+    /* top: 1rem; */
+        left: 3rem;
+    }        
 @media (max-width: 50.625em) {  
     
     .section-2-sub-2{
@@ -187,12 +204,15 @@ top: 1rem;
        
 /* section-3 */
 .warm-storage{
-    font-size: 120%;
-    margin-top: 5rem;
+    font-size: 80%;
+    margin-top: 1.55rem;
     background-color:#000;
-    width: 50%;
+    width: 49.95%;
     border-top-left-radius: 5rem;
 float: right;
+}
+.checking-warm{
+    margin-right: 14%;
 }
 @media (max-width: 77.125em) {  
 .warm-storage{
@@ -293,12 +313,16 @@ left: 40%;
 }
 }
 .hot-heading{
+    margin-top: 1.4rem;
+    text-transform: uppercase;
+    font-size: 200%;
 text-align: center;
+margin-bottom: 0%;
 }
 .hot-paragraph{
-    width: 50%;
+    width: 52%;
     margin-left:25%;
-    padding-bottom: 1rem;
+    padding-bottom: .7rem;
     text-align: center;
 }
 
@@ -311,14 +335,14 @@ text-align: center;
 }
     }
 .btn-storage{
-    background-color: orange;
+    background-color: rgb(255, 136, 0);
     color: #fff;
     border-radius: .3rem;
-    font-size: 100%;
-    padding: .5rem 1rem;
+    font-size: 110%;
+    padding: .3rem 1rem;
     border: hidden;
 margin-left: 40%;
-margin-bottom: 4rem;
+margin-bottom: 2rem;
 }
 
 @media (max-width: 50em) {   
@@ -362,12 +386,15 @@ margin-bottom: 4rem;
     }
 .hot-storage{
 
-    font-size: 120%;
+    font-size: 80%;
     margin-top: 1.5rem;
-    background-color:#000;
-    width: 50%;
+    background-color:rgb(20, 20,20);
+    width: 49.95%;
     float: left !important;
     border-top-right-radius: 5rem;
+}
+.checking-hot{
+    margin-left: 14%;
 }
 /* 
 @media (max-width: 70.9375em) {  
@@ -476,11 +503,10 @@ margin-bottom: 4rem;
     }
     }
 /* section-4 */
-
-.hot-picture{
-margin-top: -16rem;
-    float: right;
-    margin-right: 12rem;
+.hot-sect{
+float: left;
+margin-left: 15rem;
+margin-top: -2rem;
 }
 @media (max-width: 75em) {  
     .hot-picture{
@@ -503,7 +529,6 @@ margin-top: -16rem;
             .hot-picture{
                 margin-top: -19rem;
                 float: right;
-            /* width: 35%; */
                 margin-right: 3rem;
                 position: relative;
                 bottom: 4rem;
@@ -511,7 +536,6 @@ margin-top: -16rem;
             }
         @media (max-width: 45.625em) {  
             .hot-picture{
-                /* margin-top: -19rem; */
                 float: right;
                 margin-right: 13rem;
 margin-bottom: 10rem;
@@ -593,11 +617,15 @@ position: relative;
 bottom: 2rem;
         }
     }
+    .leo{
+        font-size: 86%;
+        margin-bottom: 2rem;
+    }
 .sub-hot-temp{
-    margin-top: 40rem;
-font-size: 120%;
-    width: 40%;
-    margin-left: 10rem;
+    margin-top: 28rem;
+font-size: 105%;
+    width: 33%;
+    margin-left: 43rem !important;
 }
 
 @media (max-width: 75em) {  
@@ -707,29 +735,34 @@ font-size: 170%;
 }
 .btn-storage-hot{
     font-size: 110%;
-    color: orange;
+    color: rgb(255, 136, 0);
     background-color: #fff;
     border-radius: .2rem;
     border: hidden;
-    padding: .4rem .8rem;
+    padding: .3rem 1rem;
 }
 
 /* section-5 */
 .section-5{
-    margin-top: 10rem;
-    padding-top: 10rem ;
-    padding-bottom: 5rem;
+    margin-top: 6rem;
+    padding-top: 3rem ;
+    padding-bottom: 3rem;
     background-color: #000;
 }
+.warm{
+    text-transform: uppercase;
+margin-bottom: 1rem;
+}
 .sub-warm-temp{
-font-size: 120%;
-    width: 40%;
+font-size: 100%;
+    width: 30%;
 float: left;
-margin:0 10%;
+margin:0 13%;
+margin-top: 3.5rem;
+margin-left: 15rem;
 /* padding-bottom: 8rem; */
 text-align: right;
 }
-
 @media (max-width: 45.625em) {  
     
 .sub-warm-temp{
@@ -816,12 +849,12 @@ text-align: right;
 
 .serve{
     font-size: 2.2rem;
-    color: orange;
+    color: rgb(255, 136, 0);
     margin-bottom: 0%;
     letter-spacing: .16rem;
 }
 .section{
-  margin: 5rem 0; 
+  margin: 4rem 0; 
     text-align: center;
 }
 
@@ -841,10 +874,10 @@ text-align: right;
       }
 }
 .claim{
-    font-size: 450%;
+    font-size: 550%;
 }
 .mbs{
-    color: wheat;
+    color: rgb(255, 222, 161);
 }
 .network{
     font-size: 2.2rem;
@@ -909,11 +942,12 @@ left: 4rem;
     top: -2rem;
     left: 2rem;
    }
-        }
-        
+   }        
 .cloud{
+    color: rgb(255, 145, 0);
     text-align: center;
     padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 .heading{
     text-align: center;
@@ -978,7 +1012,7 @@ left: 4rem;
     padding-top: 50px;
     float: right;
     font-size: 80%;
-    margin-right: 15%;
+    margin-right: 12%;
 }
 @media (max-width: 78.125em) {  
     .data{
@@ -1004,10 +1038,11 @@ left: 4rem;
         padding-top: 50px;
         float: right;
         font-size: 90%;
-        margin-right: 5%;
+        margin-right: 4% !important;
     }
 }
 .because{
+    font-size: 140%;
     margin-bottom: 0%;
 }
 
@@ -1015,13 +1050,15 @@ left: 4rem;
 
 footer{
     background-color: black;
-    /* color: white; */
 }
 .white{
     color: #fff;
 }
-i{
+.i{
     color: #fff !important;
+}
+.text-uppercase{
+    margin-bottom: 0% !important;
 }
 .this-is{
     text-align: left;
@@ -1037,13 +1074,23 @@ margin-left: 100px;
 }
 a{
     text-decoration: none !important;
-    /* color:gray  !important; */
-
+margin-bottom: 0% !important;
+}
+.footer-paragraph{
+    margin-bottom: 0%;
 }
 a:hover{
     color: white !important;
 }
-
+.social-icon{
+    font-size: 150% !important;
+}
+.social-icon:hover{
+    color: #fff;
+}
+.iconse{
+    color: orange;
+}
 .list{
     font-size: 90%;
     width: 160px;
@@ -1062,9 +1109,7 @@ a:hover{
     font-size: 125%;
     margin-right: 150px !important;
 }
-.spaan{
-    /* color: orange; */
-}
+
 #upperc{
     width: 150px;
     text-align: left;
@@ -1086,9 +1131,11 @@ a:hover{
 }
 .icons{
     font-size: 180%;
-/* color: rgb(179, 176, 176); */
 border-radius: 100%;
 }
 #icons:hover{
     color: white;
+}
+.footer-last{
+color: rgb(255, 136, 0);
 }

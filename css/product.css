@@ -2,6 +2,7 @@
     width: 1355px;
     height: 400px;
 } */
+/* navbar */
 #span{
     font-size: 200%;
 }
@@ -73,6 +74,7 @@ body{
     background-color: white;
     color: rgb(255, 115, 0);
     padding: 5px 10px;
+    margin-top: 5rem;
     border-radius: 3px;
     border-style: hidden;
 }
@@ -107,7 +109,7 @@ body{
 .storage{
     width: 40%;
     float: right;
-    margin-right: 13%;
+    margin-right: 10%;
 }
 @media (max-width:75em){
 .storage{
@@ -287,7 +289,7 @@ body{
     .warm{
     width: 40%;
     float: left;
-    margin-left: 10rem;
+    margin-left: 8rem;
     text-align: right;
 }
 @media (max-width:66.25em){   
@@ -331,7 +333,15 @@ body{
 
 footer{
     background-color: black;
-    color: white;
+}
+.white{
+    color: #fff;
+}
+.i{
+    color: #fff !important;
+}
+.text-uppercase{
+    margin-bottom: 0% !important;
 }
 .this-is{
     text-align: left;
@@ -347,12 +357,23 @@ margin-left: 100px;
 }
 a{
     text-decoration: none !important;
-    color:gray  !important;
+margin-bottom: 0% !important;
+}
+.footer-paragraph{
+    margin-bottom: 0%;
 }
 a:hover{
     color: white !important;
 }
-
+.social-icon{
+    font-size: 150% !important;
+}
+.social-icon:hover{
+    color: #fff;
+}
+.iconse{
+    color: orange;
+}
 .list{
     font-size: 90%;
     width: 160px;
@@ -362,6 +383,7 @@ a:hover{
 #lis{
     margin-left: 15px;
 }
+
 .list-unstyled{
     font-size: 90%;
     width: 350px;
@@ -370,11 +392,8 @@ a:hover{
     font-size: 125%;
     margin-right: 150px !important;
 }
-.spaan{
-    color: orange;
-}
+
 #upperc{
-    /* padding-right: 150px; */
     width: 150px;
     text-align: left;
 }
@@ -389,23 +408,17 @@ a:hover{
 }
 .text-uppercase{
     font-size: 90%;
-/* width: 100px !important; */
 }
 .icon{
     color: orange;
 }
 .icons{
     font-size: 180%;
-color: rgb(179, 176, 176);
 border-radius: 100%;
 }
 #icons:hover{
     color: white;
-/* border-radius: 100%; */
 }
-
-
-/* Footer */
-
-
-
+.footer-last{
+color: rgb(255, 136, 0);
+}
