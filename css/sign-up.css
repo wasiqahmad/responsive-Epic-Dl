@@ -8,6 +8,17 @@ h1{
     text-align: center !important;
 /* margin: auto !important; */
 }
+
+/* @media (max-width: 25em) {
+body{
+    width: 80% !important;
+}
+}    */
+@media (max-width: 25em) {
+html{
+width: 80% !important;
+}
+}   
 @media (max-width: 28.75em) {
  
 h1{

@@ -25,7 +25,7 @@
     padding-bottom: 8px;
     border: hidden;
 }
-@media (max-width:27.25em){ 
+@media (max-width:30.25em){ 
 .button{
     border-radius: 5px;
     background-color: white;
@@ -77,11 +77,20 @@ body{
     margin-top: 5rem;
     border-radius: 3px;
     border-style: hidden;
+/* margin-bottom: 2rem; */
 }
 .easy{
     color: orange;
     margin-bottom: 0%;
 }
+@media (max-width:25em){
+    
+.sub-head{
+width: 65.5%;
+margin: auto;
+}
+}
+
 .href{
     width: 100px;
     border: 2px solid gray;
@@ -146,14 +155,14 @@ body{
     @media (max-width:44.375em){
         .picture{
             margin-left: 28%;
-            padding-top: 17rem !important;
+            padding-top: 19rem !important;
             margin-bottom: 3rem;
         }
     }
     @media (max-width:38.75em){
         .picture{
             margin-left: 25%;
-            padding-top: 17rem !important;
+            padding-top: 20rem !important;
             margin-bottom: 3rem;
         }
     }
@@ -174,6 +183,7 @@ body{
     @media (max-width:27.5em){
      .hot-pic{
          width: 14rem;
+         margin-top: 3rem;
          margin-left: 1.3rem;
      }
     }
@@ -291,6 +301,7 @@ body{
     float: left;
     margin-left: 8rem;
     text-align: right;
+    /* padding-bottom: 20rem !important; */
 }
 @media (max-width:66.25em){   
     .warm{
@@ -332,6 +343,7 @@ body{
 /* Footer */
 
 footer{
+    /* padding-top: 5rem; */
     background-color: black;
 }
 .white{

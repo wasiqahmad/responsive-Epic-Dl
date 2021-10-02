@@ -254,6 +254,7 @@ label{
     font-size: 100% !important;
 }
 .text-message{
+    /* width: 69%; */
 margin-top: .5rem;
 position: relative;
 left: -10.4rem;
@@ -261,46 +262,310 @@ border: hidden;
 color: rgb(149, 146, 146);
 background-color:rgb(41, 40, 40);
 margin-bottom: 0% !important;
-/* margin-left: 0% !important; */
-/* margin-right: 25rem; */
 }
+@media (max-width: 82em) {  
+    .text-message{
+        margin-top: .5rem;
+    position: relative;
+    left: -9rem;
+    border: hidden;
+    color: rgb(149, 146, 146);
+    background-color:rgb(41, 40, 40);
+    margin-bottom: 0% !important;
+    }
+    }
+    @media (max-width: 78.75em) {  
+        .text-message{
+            margin-top: .5rem;
+        position: relative;
+        left: -8rem;
+        border: hidden;
+        color: rgb(149, 146, 146);
+        background-color:rgb(41, 40, 40);
+        margin-bottom: 0% !important;
+        }
+        }
+        @media (max-width: 76em) {  
+            .text-message{
+                margin-top: .5rem;
+            position: relative;
+            left: -7rem;
+            border: hidden;
+            color: rgb(149, 146, 146);
+            background-color:rgb(41, 40, 40);
+            margin-bottom: 0% !important;
+            }
+            }
+            @media (max-width:75em) {  
+                .text-message{
+                    margin-top: .5rem;
+                position: relative;
+                left: -8rem;
+                border: hidden;
+                color: rgb(149, 146, 146);
+                background-color:rgb(41, 40, 40);
+                margin-bottom: 0% !important;
+                }
+                }
+                @media (max-width:72.5em) {  
+                    .text-message{
+                        margin-top: .5rem;
+                    position: relative;
+                    left: -7rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:69.3em) {  
+                        .text-message{
+                            margin-top: .5rem;
+                        position: relative;
+                        left: -5.8rem;
+                        border: hidden;
+                        color: rgb(149, 146, 146);
+                        background-color:rgb(41, 40, 40);
+                        margin-bottom: 0% !important;
+                        }
+                        }
+                    @media (max-width:62.5em) {  
+                    .text-message{
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -4.3rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:56.25em) {  
+                    .text-message{
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -3.3rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:51.25em) {  
+                    .text-message{
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -2rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:49.3em) {  
+                    .text-message{
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -1rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:45.7em) {  
+                    .text-message{
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -.5rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:44em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -6.6rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:41em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -5.6rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:39.3em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -4.9rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:37.5em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -4.4rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:35.9em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -3.5rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:33.125em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -2.6rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:31.25em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -1.7rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:26.25em) {  
+                    .text-message{
+                    width: 21rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -1rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:25em) {  
+                    .text-message{
+                    width: 16rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -3rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:23.75em) {  
+                    .text-message{
+                    width: 16rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -2.4rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:22.5em) {  
+                    .text-message{
+                    width: 16rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -2rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+                    @media (max-width:21em) {  
+                    .text-message{
+                    width: 16rem;
+                    margin-top: .5rem;
+                    position: relative;
+                    left: -1rem;
+                    border: hidden;
+                    color: rgb(149, 146, 146);
+                    background-color:rgb(41, 40, 40);
+                    margin-bottom: 0% !important;
+                    }
+                    }
+
 @media (max-width: 75em) {  
-    form{
+    .form{
         margin-top: 2rem;
         margin-left: 20%;
         margin-bottom: 4rem;
     }
 }
 @media (max-width: 66.875em) {  
-    form{
+    .form{
         margin-top: 2rem;
         margin-left: 16%;
         margin-bottom: 4rem;
     }
 }
 @media (max-width: 59.375em) {  
-    form{
+    .form{
         margin-top: 2rem;
         margin-left: 11%;
         margin-bottom: 4rem;
     }
 }
 @media (max-width: 54.375em) {  
-    form{
+    .form{
         margin-top: 2rem;
         margin-left: 7%;
         margin-bottom: 4rem;
     }
 }
 @media (max-width: 46.875em) {  
-    form{
+    .form{
         margin-top: 2rem;
         margin-left: 1%;
         margin-bottom: 4rem;
     }
 }
-@media (max-width: 43.75em) {  
-    form{
+@media (max-width: 44em) {  
+    .form{
         margin-top: 2rem;
         margin-left: 20%;
         margin-bottom: 4rem;
@@ -308,7 +573,7 @@ margin-bottom: 0% !important;
 }
 
 @media (max-width: 28.75em) {  
-    form{
+    .form{
         margin-top: 2rem;
         margin-left: 10%;
         margin-bottom: 4rem;
@@ -329,12 +594,12 @@ margin-bottom: .5rem !important;
 background-color:rgb(41, 40, 40);
 border: hidden;
 border-radius: .2rem;
-color: black !important;
+
 }
-@media (max-width: 43.75em) {  
+@media (max-width: 44em) {  
     input{
         /* padding-right: 12rem ; */
-        background-color:gainsboro;
+        /* background-color:gainsboro; */
         border: hidden;
         margin-right: 20rem;
         border-radius: .2rem;
@@ -345,7 +610,7 @@ color: black !important;
 @media (max-width: 25em) {  
     input{
         padding-right: 2rem ;
-        background-color:gainsboro;
+        /* background-color:gainsboro; */
         border: hidden;
         margin-right: 20rem;
         border-radius: .2rem;
@@ -357,7 +622,7 @@ color: black !important;
     margin-right: 1rem;
     /* width: 35%; */
 }
-@media (max-width: 43.75em) {  
+@media (max-width: 44em) {  
     .form-1{
         /* float: left ; */
         margin-right: 12rem;   
