@@ -1,37 +1,36 @@
 body{
+/* width: 32%; */
     width: 420px !important;
     margin: auto !important;
+}
+@media (max-width: 28.75em) {
+    body{
+width: 100% !important;
+    }
+        
 }
 h1{
     width: 100%;
     margin-top: 20% !important;
     text-align: center !important;
-/* margin: auto !important; */
 }
 
-/* @media (max-width: 25em) {
-body{
-    width: 80% !important;
-}
-}    */
-@media (max-width: 25em) {
-html{
-width: 80% !important;
-}
-}   
 @media (max-width: 28.75em) {
- 
 h1{
     width: 60%;
     margin-top: 20% !important;
     text-align: center !important;
 margin-left: 5rem;
+/* font-size: 130%; */
 }
 }
-.form-group{
-    width: 180px;
+input{
+    margin-left: 1rem !important;
+}
+.form-group-1{
+    width: 170px;
     float: left;
-    margin-right: 20px;
+    margin-right: 17px;
     border-top-style: hidden;
     border-left-style: hidden;
     border-right-style: hidden;
@@ -40,35 +39,34 @@ outline: none;
 input{
     margin-bottom: 3rem !important;
 }
-@media (max-width: 28.75em) {
-    .form-group{
-        width: 80% !important;
-        /* float: right; */
-        margin-left: 2.1rem;
-        /* margin-top: 0% !important; */
-        /* margin-bottom: 0rem; */
+ @media (max-width: 28.75em) {
+    .form-group-1{
+        width: 75% !important;
+        float: none;
+        margin: auto !important;
+        margin-left: 3rem !important;
+        margin-bottom: 2rem !important;
         border-top-style: hidden;
         border-left-style: hidden;
         border-right-style: hidden;
-    outline: none;
+        outline: none;
     }
 }
-
 @media (max-width: 25em) {
-    .form-group{
-width: 80% !important;
-        position: relative;
-        left: 2rem;
-        margin: 0%;
-        padding: 0%;
+    .form-group-1{
+        width: 80% !important;
+        float: none;
+        margin: auto !important;
+        margin-left: 2.2rem !important;
+        margin-bottom: 2rem !important;
         border-top-style: hidden;
         border-left-style: hidden;
         border-right-style: hidden;
-    outline: none;
-    }
+        outline: none;
+     }
 }
-.form-groups{
-    width: 180px;
+.form-group-2{
+    width: 170px;
     float: right;
     margin: 0px 20px;
     border-top-style: hidden;
@@ -77,9 +75,11 @@ width: 80% !important;
 outline: none;
 }
 @media (max-width: 28.75em) {
-    .form-groups{
-        width: 80% !important;
-        margin-right: 2.7rem !important;
+    .form-group-2{
+width: 75%;
+        float: none !important;
+        margin: auto;
+ margin-left: 5rem;
         border-top-style: hidden;
         border-left-style: hidden;
         border-right-style: hidden;
@@ -87,23 +87,26 @@ outline: none;
     }
 }
 @media (max-width: 25em) {
-    .form-groups{
-        width: 80% !important;
-        margin: 0%;
-        padding: 0%;
+    .form-group-2{
+        width: 80%;
+        float: none !important;
+        margin: auto;
+        margin-left: 3.4rem;
         border-top-style: hidden;
         border-left-style: hidden;
         border-right-style: hidden;
-    outline: none;
+        outline: none;
     }
 }
-form{
+.form{
     margin-top: 120px;
 }
 .button{
-    padding-left:155px;
-    padding-right: 150px;
+    padding-left:135px;
+    padding-right: 130px;
     padding-top: 5px;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
     padding-bottom: 5px;
     background-color: rgba(12, 211, 12,.8);
     border: hidden;
@@ -114,11 +117,11 @@ font-size: 130%;
 @media (max-width: 28.75em) {  
     
 .button{
-    padding-left:105px;
-    padding-right: 100px;
-    margin-left: 3rem;
+    padding-left:18%;
+    padding-right: 18%;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left: 6rem;
     background-color: rgba(12, 211, 12,.8) !important;
     box-shadow: 0 0 3rem;
     border: hidden;
@@ -127,7 +130,7 @@ color: white;
 font-size: 130%;
 }
 }
-@media (max-width: 25em) {     
+/* @media (max-width: 25em) {     
 .button{
     padding-left:85px;
     padding-right: 80px;
@@ -139,7 +142,7 @@ border-radius: 50px;
 color: white;
 font-size: 130%;
 }
-   }
+   } */
 .button:hover{
     background-color: rgb(22, 20, 20);
 }

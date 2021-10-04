@@ -23,11 +23,17 @@ padding-right: 1rem !important;
 text-transform: uppercase !important;
 }
 /* slider */
+
+@media (max-width: 46.875em) {  
+    .slider{
+        height: 30rem !important;
+       }
+   }
+   
 .one{
     padding: 0% 0% 28%;
     text-align: center;
 }
- 
 @media (max-width: 65em) {  
  .one{
         position: relative;
