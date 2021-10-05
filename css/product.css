@@ -343,11 +343,6 @@ footer{
     background-color: black;
     /* margin-top: 1rem; */
 }          
- @media (max-width:71em){   
-    footer{
-        /* margin-top: 3rem; */
-    }
-    }
 
 .white{
     color: #fff;
