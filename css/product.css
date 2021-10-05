@@ -1,22 +1,35 @@
 
 /* navbar */
+body{
+    background-image: url(../images/product-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .background{
+        background-color: rgb(40, 40, 40) !important;
+     padding-top: 80px;
+        color: white;
+        padding-bottom: 3rem;
+        /* height: 110rem; */
+    }    
 #span{
     font-size: 200%;
 }
 .option{
-background-color: #fff !important;
-    border-radius: 5px !important;
-    -webkit-border-radius: 5px !important;
-    margin-top: 15px !important;
-    -webkit-margin-top: 15px !important;
-    padding-left: 10px !important;
-    -webkit-padding-left: 10px !important;
-    padding-right: 70px !important;    
-    -webkit-padding-right: 70px !important;
-    padding-top: 8px !important;
-    -webkit-padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    -webkit-support-padding-bottom: 8px !important;
+    background-color:#fff; 
+    -webkit-background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 15px;
+    -webkit-margin-top: 15px;
+    padding-left: 10px;
+    -webkit-padding-left: 10px;
+    padding-right: 70px;    
+    -webkit-padding-right: 70px;
+    padding-top: 8px;
+    -webkit-padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-support-padding-bottom: 8px;
 }
 .button{
     border-radius: 5px;
@@ -41,13 +54,7 @@ background-color: #fff !important;
     padding-bottom: 8px;
 }
 }
-body{
-    background-image: url(../images/product-image.jpg);
-    
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    
-}
+
 .import{
     color: white;
     padding-top:200px ;
@@ -68,12 +75,6 @@ body{
             font-size: 200%;
             text-align: center;
         }}
-.background{
-    background-color: rgb(40, 40, 40) !important;
- padding-top: 80px;
- /* text-align: center;    */
-    color: white;
-}
 .buttons{
     background-color: white;
     color: rgb(255, 115, 0);
@@ -81,7 +82,6 @@ body{
     margin-top: 5rem;
     border-radius: 3px;
     border-style: hidden;
-/* margin-bottom: 2rem; */
 }
 .easy{
     color: orange;
@@ -94,13 +94,10 @@ width: 65.5%;
 margin: auto;
 }
 }
-
 .href{
     width: 100px;
-    /* border: 2px solid gray; */
     margin: auto;
 }
-
 .paragraph{
     width: 75%;
     margin: auto;
@@ -115,8 +112,6 @@ margin: auto;
     margin-bottom: 0%;
 }
 .leorem{
-    /* width: 450px; */
-    /* margin: auto; */
     text-align: left;
 }
 .storage{
@@ -305,7 +300,6 @@ margin: auto;
     float: left;
     margin-left: 8rem;
     text-align: right;
-    /* padding-bottom: 20rem !important; */
 }
 @media (max-width:66.25em){   
     .warm{
@@ -343,13 +337,18 @@ margin: auto;
     font-size: 180%;
     margin-bottom: 0%;
 }
-
-/* Footer */
+ /* Footer */
 
 footer{
-    /* padding-top: 5rem; */
     background-color: black;
-}
+    /* margin-top: 1rem; */
+}          
+ @media (max-width:71em){   
+    footer{
+        /* margin-top: 3rem; */
+    }
+    }
+
 .white{
     color: #fff;
 }
